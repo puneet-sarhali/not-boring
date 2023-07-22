@@ -1,3 +1,15 @@
-<h1>Welcome to your library project</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import HorizontalLines from '$lib/horizontal-lines.svelte';
+	import MouseHover from '$lib/mouse-hover.svelte';
+	import BorderGlow from '$lib/border-glow.svelte';
+	import SlideInButton from '$lib/slide-in-button.svelte';
+	import OrbitingStars from '$lib/orbiting-stars.svelte';
+</script>
+
+<div class="p-16 space-y-16">
+	<HorizontalLines />
+	<MouseHover />
+	<!-- <BorderGlow /> -->
+	<SlideInButton />
+	<OrbitingStars />
+</div>
